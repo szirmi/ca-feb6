@@ -1,0 +1,37 @@
+{
+  "name": "ca-feb6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "nodemon src/index.js",
+    "lint": "eslint ."
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://szirmi@github.com/szirmi/ca-feb6.git"
+  },
+  "author": "szirmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szirmi/ca-feb6/issues"
+  },
+  "homepage": "https://github.com/szirmi/ca-feb6#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-mocha": "^5.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "mocha": "^5.2.0"
+  }
+}
